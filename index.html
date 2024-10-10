@@ -1,148 +1,142 @@
 <!DOCTYPE html>
-
 <html>
-    
-    <!-- Head including title and navigation -->
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Christman Websites</title>
+        <title>Christman Hoof Care</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body>
-
-        <!-- Navigation bar -->
-         <div class="hero">
-
-            <nav>
-                <a href="#home"><img src="Christman-Websites-Logo.png" class="logo"></a>
+        <div class="hero">
+            <div class="nav">
+                <a href="#home"><img src="CHC-logo.png"></a>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a> </li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home"><img src="home.svg"></a></li>
+                    <li><a href="#about"><img src="about.svg"></a></li>
+                    <li><a href="#contact"><img src="contact.png"></a></li>
                 </ul>
+                <a class="right"><img src=horseshoe.png" onclick="toggleMenu()"></a>
+            </div>
 
-
-            </nav>
+            <div class="nav-links" id="subMenu">
+                <ul>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <img src="horse-in-shoe.png">
+                </ul>
+            </div>
 
             <div id="home">
-                <div class="slogan-background">
-                    <img src="home-background.webp">
-                    <div class="slogan">
-                       <h1>Personalized Websites</h1> 
-                       <p>for</p>
-                       <h1>Custom Needs</h1>
-                    </div>
+                <div class="home-wrap">
+                    <h1>Christman Horseshoeing</h1>
                 </div>
-
-                <div class="home-descrip">
-                    <a class="left">&lt;</a>
-                    <p> 
-                        In today’s digital landscape, a strong online presence is no longer a luxury—it's a necessity. With over 4.9 billion internet users globally, your website serves as the face of your business, connecting you with potential customers 24/7. It showcases your brand, builds credibility, and opens doors to new opportunities. Whether you’re a small business, a freelancer, or an established company, having a professional website is essential for growth, engagement, and success in a competitive market. Don’t miss out—elevate your brand and reach your audience with a compelling website today!
-                    </p>
-                    <a class="right">></a>
-                </div>
+    
             </div>
 
             <div id="about">
-                    <div class="about-title">
+                <div class="about-wrap">
+                    <div class="title-wrap">
+                        <a><img src="bucking-horse.png"></a>
                         <h1>ABOUT</h1>
+                        <a><img src="bucking-horse copy.png"></a>
                     </div>
-
-                    
-                        <!-- <figure>
-                            <img src="images/space-pic.webp" alt="Profile Picture">
-                            <figcaption class="name">Judah Christman</figcaption>
-                            <figcaption>Founder - Freelancer</figcaption>
-                        </figure> -->
-                    
-                <div class="about-message">
-                    <div class="about-message-content">
+                    <div class="about-content">
+                        <img src="about-photo.JPG" alt="HORSEY">
                         <p>
-                             Christman Websites was founded in 2024 to help small businesses create a 
-                             digital presence for potential customers in their area. We believe that websites 
-                             are a necessity in today's online culture, but that does not mean they should 
-                             be expensive. From business sites to ecommerce sites we will create what you need both 
-                             in design and in quality. 
+                            Christman Hoof Care is passionate about equine care and dedicated to the health and well-being of your horse. With years of experience around horses and a commitment to craftsmanship, our skill in farrier services provide personalized hoof care tailored to each horse’s unique needs.
+We understand that every horse is different, and we take the time to assess their individual conformation, activity level, and specific requirements. Whether it’s routine trimming, shoeing, or therapeutic services, our goal is to ensure your horse has the best foundation for performance and comfort.
+Using high-quality materials and techniques, we focus on both the art and science of farriery. Our friendly, knowledgeable team is here to guide you through the process and answer any questions you may have. We believe in building lasting relationships with our clients and their horses, fostering trust and understanding every step of the way.
+Let us help your horse shine on and off the field. Reach out today to schedule an appointment!
                         </p>
-                        
                     </div>
-                    <figure>
-                        <img src="Profile-Pic.jpg" alt="Profile Picture">
-                        <figcaption class="name">Judah Christman</figcaption>
-                        <figcaption>Founder - Freelancer</figcaption>
-                    </figure>
-
 
                 </div>
-
-            </div>
-
-            <div id="portfolio">
-                <div class="portfolio-title">
-                    <h1>PORTFOLIO</h1>
-                </div>
-                <div class="portfolio-message">
-                    <p>
-                        I had the opportunity to work with a few businesses and 
-                        professionals by providing their website needs. Below you can view 
-                        the provided solutions and methods used for these cases!
-                    </p>
-                </div>
-                    <div class="portfolio-cases">
-                            <figure>
-                                <img src="html-code.webp" alt="Picture Unavailable">
-                                <figcaption>
-                                    Christopher Christman was attending a farrier school 
-                                    and needed a website where local clients could find his services 
-                                    and availability, as well as a convenient way to contact him. 
-                                    He also wanted his portfolio to be public for potential 
-                                    new clients to see his experience and capability.
-                                </figcaption>
-                            </figure>
-                        
-
-                        
-                    </div>
             </div>
 
             <div id="contact">
-                <div class="contact-title">
-                    <h1>CONTACT</h1>
+                <div class="contact-wrap">
+
+                    <div class="contact-title">
+                        <h1>CONTACT</h1>
+                    </div>
+
+                    <div class="contact-info">
+                        <form>
+                            <h3>Get in Touch</h3>
+
+                            <!-- Replace with your Access Key -->
+                            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+    
+                            <!-- Form Inputs. Each input must have a name="" attribute -->
+                            <input class="contact-inputs" type="text" name="name" placeholder="Your Name" required>
+                            <input class="contact-inputs" type="email" name="email" placeholder="Email" required>
+                            <input class="contact-inputs" type="number" name="number" placeholder="Phone Number" required>
+                            <textarea class="contact-inputs" name="message" rows="4" placeholder="Message..." required></textarea>
+    
+                            <!-- Honeypot Spam Protection -->
+                            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    
+                            <!-- Custom Confirmation / Success Page -->
+                            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+    
+                            <button type="submit">Submit</button>
+                        </form>
+
+                        <div class="contact-pic">
+                            <img src="Contact-Pic.png">
+
+                            <div class="contact-person">
+                                <h4>CONTACT INFORMATION</h4>
+                                <ul>
+                                    <li><bold>EMAIL:</bold> christmanhorseshoing@gmail.com</li>
+                                    <li><bold>NUMBER:</bold> +1(541) 451 - 0671</li>
+                                    <li><bold>AVAILABILITY:</bold> Monday - Friday</li>
+                                </ul>
+                                <p>Use the form to the left or send me and email or call to get in touch!</p>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
                 </div>
-
-                <div class="contact-inputs">
-                 <form action="https://api.web3forms.com/submit" method="POST">
-                    <h3>Get in Touch</h3>
-                    <input type="hidden" name="access_key" value="cf587f1d-f3bf-4437-9f22-0866d78f6f90">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Email Address" required>
-                    <input type="text" name="phone" placeholder="Phone Number" required>  
-                    <textarea name="message" rows="4" placeholder="Enter message here..."></textarea>
-                    <button type="submit">Send</button>                  
-                    <input type="hidden" name="redirect" value="https://judah-christman.github.io/sent">
-                 </form>
-                </div>
-
-                
-                
-
             </div>
-
-            <div class="footer">
-                <img  class="logo" src="Christman-Websites-Logo.png" alt="LOGO">
-                <a href="#home"><img class="up-arrow" src="arrow-up-01-512.webp" alt="Top of Page"></a>
-                <a class="end-message">2024 Christman Websites</a>
-            </div>
-
+            
 
         </div>
-        
+        <script>
+            let subMenu = document.getElementById("subMenu");
+
+            function toggleMenu(){
+                subMenu.classList.toggle("open-menu");
+            }
+        </script>
 
     </body>
 
     <footer>
+        <div class="quick-links">
+            <div class="footer-content">
+                <div class="end-links">
+                    <h5>Helpful Links</h5>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="gallary.html">Gallery</a></li>
+                    </ul>
 
+                </div>
+
+                <div class="up-arrow">
+                    <a href="#home"><img src="arrow-up-01-512 copy.webp"></a>
+                </div>
+                <p>ChristmanHorseshoing</p>
+            </div>
+
+        </div>
+        
     </footer>
 </html>
