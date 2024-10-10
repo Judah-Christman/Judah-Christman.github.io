@@ -1,6 +1,6 @@
 @font-face{
     font-family: bronco;
-    src: url(fonts/bronco-font/Bronco-WyGzn.ttf);
+    src: url(bronco-font/Bronco-WyGzn.ttf);
 }
 
 * {
@@ -127,7 +127,7 @@
     }
     
     .home-wrap {
-        background-image: url(images/home-img.png);
+        background-image: url(home-img.png);
         background-repeat: no-repeat;
         background-position: center;
         height: 855px;
