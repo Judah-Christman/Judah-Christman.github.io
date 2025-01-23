@@ -4,24 +4,58 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 	<title>Judah Christman</title>
 </head>
-<body>
-	<div id="main">
-		<nav>
-			<div class="logo-background">
-				<h1 class="logo-content">Judah Christman</h1>
-			</div>
-
-			<div class="links-menu">
+	<body>
+		<div class="main">
+			<nav>
 				<ul>
-					<li class="link-title">ABOUT</li>
-					<li class="link-title">PROJECTS</li>
-					<li class="link-title">CONTACT</li>
+					<li><a href="Judah-Christman.github.io">JKC</a></li>
+					<li><a href="Judah-Christman.github.io">About Me</a></li>
+					<li><a href="Judah-Christman.github.io">Projects</a></li>
+					<li><a href="Judah-Christman.github.io">Hobbies</a></li>
+					<li><a href="Judah-Christman.github.io">Interests</a></li>
 				</ul>
-			</div>
-		</nav>
-	</div>
+			</nav>
 
-</body>
+			<div class="landing-content">
+				<div id="viewport" class="view-mac">
+					<div class="top-bar">
+						<button class="one"><span class="windows-only">_</span></button>
+						<button class="two"><span class="windows-only">O</span></button>
+						<button class="three"><span class="windows-only">X</span></button>
+					</div>
+
+					<div id="preview">
+						
+					</div>
+				</div>
+
+		
+				
+
+	
+
+			</div>
+			
+
+			<button id="switch">Switch Preview</button>
+
+		</div>
+		
+
+		<script src="javascript/script.js"></script>
+		<script type="text/babel">
+			function Hello() {
+        		return <h1>Hello World!</h1>;
+      		}
+
+      		const container = document.getElementById('preview');
+      		const root = ReactDOM.createRoot(container);
+      		root.render(<Hello />)
+		</script>
+	</body>
 </html>
